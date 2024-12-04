@@ -2,14 +2,15 @@
   "name": "10-apicall",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://nittothomas94.github.io/Mykart-apicall",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "preload": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "preldeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "antd": "^5.22.2",
